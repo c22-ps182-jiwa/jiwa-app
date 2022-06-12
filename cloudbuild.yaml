@@ -18,10 +18,10 @@ steps:
 timeout: "1600s"
 availableSecrets:
   secretManager:
-    - versionName: projects/637632514001/secrets/DB_HOST
+    - versionName: projects/637632514001/secrets/DB_HOST/versions/1
       env: "DB_HOST"
-    - versionName: projects/637632514001/secrets/DB_PASSWORD
+    - versionName: projects/637632514001/secrets/DB_PASSWORD/versions/1
       env: "DB_PASSWORD"
-    - versionName: projects/637632514001/secrets/DB_USERNAME
+    - versionName: projects/637632514001/secrets/DB_USERNAME/versions/1
       env: "DB_USERNAME"
 
