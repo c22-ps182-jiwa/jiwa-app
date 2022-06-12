@@ -1,7 +1,7 @@
 runtime: nodejs16
 
 instance_class: F1
-  DB_HOST:
-  DB_USERNAME:
+  DB_HOST: 0.0.0.0
+  DB_USERNAME: 
   DB_PASSWORD:
-  DB_NAME:
+  DB_NAME: mymentaldb
