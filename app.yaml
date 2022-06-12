@@ -3,7 +3,7 @@ runtime: nodejs16
 instance_class: F1
 
 env_variables:
-  DB_HOST:
-  DB_USERNAME:
-  DB_PASSWORD:
-  DB_NAME:
+ DB_HOST= '34.101.177.23'
+ DB_USERNAME= 'mymentaldb-tasya'
+ DB_PASSWORD= 'admin'
+ DB_NAME= 'mymentaldb'
